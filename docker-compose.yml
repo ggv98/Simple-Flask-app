@@ -4,6 +4,7 @@ services:
   api_server:
     container_name: api_server
     build: .
+    restart: always
     command: python app.py
     volumes:
       - .:/usr/src/app/

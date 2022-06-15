@@ -1,7 +1,7 @@
 from flask import Flask
 from database import db
 from error_handler import errors
-from image_controler import images_app
+from image_controller import images_app
 from executor import executor
 from flask_swagger_ui import get_swaggerui_blueprint
 
